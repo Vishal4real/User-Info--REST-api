@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User - API</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+       <div class="wlc-txt">
+        <button> HEllO WORLD!</button>
+       </div>
+    </div>
+    <div class="main-container">
+        <h2 class="heading-text"><u>This is an Home Page for the Simple REST Api That Fetches User, Create users, Delete User, and Update it.</u></h2>
+        <h3>Here You can perfrom basic CURD Operations using POSTMAN when you install this on your local desktop </h3>
+        <div class="curd-op">
+            <div class="curd-head">
+                <h3>CURD Operations inculdes</h3>
+                <img src="./curd.png" alt="curd-img">
+            </div>
+        </div>
+        <h2>To test this Api after installing locally you can perform this opertions</h2>
+        <hr>
+        <div class="links">
+            <ul>
+                <li class="fonts">To Get All the users from the mock-data file you can copy and paste this url</li>
+            </ul>
+            <div class="code-container"> 
+                <p>http://localhost:3004/api/users</p>
+            </div>
+            <ul>
+                <li class="fonts">To Get the user with specific user id from the mock-data file you can copy and paste this url</li>
+            </ul>
+            <div class="code-container"> 
+                <p class="fonts">http://localhost:3004/api/users/1</p>
+            </div>
+            <h4 style="margin-bottom: 10px;">Note :http://localhost:3004/api/users/:id here :id is working as variable we can dynamically changed it get user with desired id </h4>
+            <ul>
+                <li class="fonts">For the Post, Patch and Delte You can use POSTMAN to send data to the server</li>
+            </ul>
+            <ol>
+                <li  style="margin-left: 35px;">It can Update data using Patch option from POSTMAN</li>
+                <li  style="margin-left: 35px;">It can Delete data using Delete option from POSTMAN</li>
+                <li  style="margin-left: 35px; margin-bottom: 40px;">It can Create data using Post option from POSTMAN on this URL : http://localhost:3004/api/users</li>
+            </ol>
+        </div>
+
+    </div>
+</body>
+</html>
